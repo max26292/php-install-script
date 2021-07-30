@@ -1,7 +1,8 @@
 #!/bin/bash
 a2dismod php7.1
-a2dismod php7.2
 a2dismod php7.3
+a2dismod php7.2
+a2dismod php8.0
 a2enmod php7.4
 service apache2 restart
 update-alternatives --set php /usr/bin/php7.4
