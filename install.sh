@@ -8,3 +8,4 @@ apt-get install -y php7.4 php7.4-common php7.4-mbstring php7.4-ldap php7.4-bcmat
 && apt-get install npm -y && npm install -g npm && npm install -g yarn \
 && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 
+sudo apt install openssl php8.2-bcmath php8.2-curl php8.2 php8.2-mbstring php8.2-mysql php8.2-common php8.2-xml php8.2-zip php8.2-mongodb
